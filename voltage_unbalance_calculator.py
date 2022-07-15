@@ -1,3 +1,6 @@
+# class used to calculate voltage unbalance between phases using sequence voltage values (csv files contain phase voltage values)
+# @author: Miiyu Fujita 
+# last modified: July 15th, 2022
 
 
 import csv

@@ -56,7 +56,7 @@ for node in nested: # node is a list of phase voltages at different timesteps
         Vs = np.matmul(matA_inv, voltages.reshape(3,1))
         if abs(Vs[2].item()/Vs[1].item()) > 0.02:
             nodes_dict[nodes[node_index]] += 1
-            print(nodes[node_index])
+            # print(nodes[node_index])
             #voltage_unbalances[nodes[node_index]][timestamp_list[time_index]] += 1
             #print(voltage_unbalances[nodes[node_index]][timestamp_list[time_index]])
            # print('true')

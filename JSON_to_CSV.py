@@ -83,5 +83,6 @@ with open('output_ieee_123.csv', 'w') as csvfile: # change csv file for each cas
     writer.writeheader()
     for key,val in individual_counts.items():
         row = {'meter': key}
-        row.update(val)
+        print(row)
+        row.update(val) # val is a dictionary
         writer.writerow(row)
